@@ -88,7 +88,7 @@ static SemaphoreHandle_t syncSemaphore = nullptr;
  */
 extern "C" void app_main(void) {
   esp_err_t ret;
-  int64_t timestamp = 0;
+  int64_t timestamp = 0; 
   float temperature = 0;
   tm dateTime = {};
   esp_mqtt_client_handle_t mqttClient = nullptr;
